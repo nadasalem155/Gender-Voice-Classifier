@@ -69,7 +69,7 @@ pred = model.predict(spec)
 print("Male 👨‍🦱" if pred[0][0] > 0.5 else "Female 👩‍🦰")
 
 ---
-##📌 Notes
+## 📌 Notes
 
 -The Streamlit app loads the model once for efficiency using @st.cache_resource
 
