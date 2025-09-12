@@ -71,8 +71,8 @@ print("Male 👨‍🦱" if pred[0][0] > 0.5 else "Female 👩‍🦰")
 ---
 ## 📌 Notes
 
--The Streamlit app loads the model once for efficiency using @st.cache_resource
+- The Streamlit app loads the model once for efficiency using @st.cache_resource
 
--Audio files are temporarily stored for processing and can be removed with a button click
+- Audio files are temporarily stored for processing and can be removed with a button click
 
--Spectrogram resizing ensures uniform input shape (128x128x1) for CNN
+- Spectrogram resizing ensures uniform input shape (128x128x1) for CNN
