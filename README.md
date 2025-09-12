@@ -12,7 +12,7 @@ The model processes audio files, converts them into **spectrograms**, and uses a
 
 ---
 
-## 🧰 Features
+## 🧰 Streamlit App Features
 
 - **Upload or record audio** directly in the browser 🎙️  
 - **Real-time gender prediction** 👨‍🦱👩‍🦰  
@@ -69,10 +69,10 @@ pred = model.predict(spec)
 print("Male 👨‍🦱" if pred[0][0] > 0.5 else "Female 👩‍🦰")
 
 ---
-📌 Notes
+##📌 Notes
 
-The Streamlit app loads the model once for efficiency using @st.cache_resource
+-The Streamlit app loads the model once for efficiency using @st.cache_resource
 
-Audio files are temporarily stored for processing and can be removed with a button click
+-Audio files are temporarily stored for processing and can be removed with a button click
 
-Spectrogram resizing ensures uniform input shape (128x128x1) for CNN
+-Spectrogram resizing ensures uniform input shape (128x128x1) for CNN
